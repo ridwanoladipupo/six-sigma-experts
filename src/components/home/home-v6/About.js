@@ -63,7 +63,7 @@ const About = () => {
                 width={276}
                 height={146}
                 className="img-1 bounce-y"
-                src="/images/about/about-1.png"
+                src="/images/about/about-11.png"
                 alt="about"
               />
             </div>
