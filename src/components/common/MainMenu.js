@@ -86,9 +86,9 @@ const MainMenu = () => {
       
 
       <li className="visible_list dropitem">
-        <a className="list-item" href="agent-single/1">
+        <a className="list-item" href="/founder">
           <span
-            className={topMenu == "property" ? "title menuActive" : "title"}
+            className={topMenu == "founder" ? "title menuActive" : "title"}
           >
             Founder
           </span>

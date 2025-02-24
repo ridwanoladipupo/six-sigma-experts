@@ -40,7 +40,7 @@ const Cta = () => {
               Eric received his Bachelor’s degree in Biological Sciences from the University of Maryland Baltimore County, his Master’s degree in Biomedical Engineering from Arizona State University and his PhD in Industrial and Systems Engineering from Arizona State University. He is currently an Adjunct Professor at Arizona State University and also serves as chairman of the Industrial Advisory Board for the NSF-Sponsored B.R.A.I.N. Industry/University consortium.
               </p> */}
 
-              <Link href="/agent-single/1" className="ud-btn btn-thm">
+              <Link href="/founder" className="ud-btn btn-thm">
                 Read more
                 <i className="fal fa-arrow-right-long" />
               </Link>
