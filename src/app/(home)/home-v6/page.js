@@ -183,7 +183,7 @@ const Home_V6 = () => {
                 <div className="main-title text-center">
                   <h2>FAQ</h2>
                   <p className="paragraph">
-                    Aliquam lacinia diam quis lacus euismod
+                    Find answers to common questions and get the information you need.
                   </p>
                 </div>
                 <div className="accordion-style1 faq-page mb-4 mb-lg-5">
