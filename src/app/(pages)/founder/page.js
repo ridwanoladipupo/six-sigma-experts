@@ -2,6 +2,8 @@ import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
 import FormContact from "@/components/property/FormContact";
+import PropertyVideo from "@/components/property/property-single-style/common/PropertyVideo";
+
 
 import ProfessionalInfo from "@/components/property/ProfessionalInfo";
 import ReviewBoxForm from "@/components/property/ReviewBoxForm";
@@ -123,9 +125,26 @@ const AgentSingle = ({params}) => {
                           </h2>
                         </div>
                       </div>
+                  </div>
+                </div>
+
+                  <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 my30 ">
+                    {/* <h4 className="title fz17 mb30">Flawlessly Launching Businesses featuring Eric Maass</h4> */}
+                    <div className="row">
+                      <PropertyVideo videoId="WKOD764eebQ?si=XXz142_oG7uJrX92"/>
+                    </div>
+                  </div>
+
+                  <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 ">
+                    {/* <h4 className="title fz17 mb30">Beyond the Hype: Understanding AI in Hiring to Gain an Edge with Eric Maass PhD</h4> */}
+                    <div className="row">
+                      <PropertyVideo videoId="wNHYs_8ZdCs?si=cpTj0fC3NuU5OlfX"/>
                     </div>
                   </div>
                 </div>
+
+                 
+               
               </div>
               {/* End .row */}
 
