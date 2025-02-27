@@ -5,32 +5,32 @@ const Office = () => {
   const offices = [
     {
       id: 1,
-      city: "Paris",
-      icon: "/images/icon/paris.svg",
-      address: "1301 2nd Ave, Seattle, WA 98101",
-      phoneNumber: "(315) 905-2321",
+      city: "United States",
+      icon: "/images/icon/us.svg",
+      address: "5640 East Marilyn Road, Scottsdale, Arizona 85254",
+      phoneNumber: "(602) 615-2642",
     },
-    {
-      id: 2,
-      city: "London",
-      icon: "/images/icon/london.svg",
-      address: "1301 2nd Ave, Seattle, WA 98101",
-      phoneNumber: "(315) 905-2321",
-    },
-    {
-      id: 3,
-      city: "New York",
-      icon: "/images/icon/new-york.svg",
-      address: "1301 2nd Ave, Seattle, WA 98101",
-      phoneNumber: "(315) 905-2321",
-    },
+    // {
+    //   id: 2,
+    //   city: "London",
+    //   icon: "/images/icon/london.svg",
+    //   address: "1301 2nd Ave, Seattle, WA 98101",
+    //   phoneNumber: "(315) 905-2321",
+    // },
+    // {
+    //   id: 3,
+    //   city: "New York",
+    //   icon: "/images/icon/new-york.svg",
+    //   address: "1301 2nd Ave, Seattle, WA 98101",
+    //   phoneNumber: "(315) 905-2321",
+    // },
     // Add more office objects here...
   ];
 
   return (
     <>
       {offices.map((office) => (
-        <div className="col-sm-6 col-lg-4" key={office.id}>
+        <div className="col-sm-12 col-lg-12" key={office.id}>
           <div className="iconbox-style8 text-center">
             <div className="icon">
               <Image width={120} height={120} src={office.icon} alt="icon" />
@@ -39,7 +39,7 @@ const Office = () => {
               <h4 className="title">{office.city}</h4>
               <p className="text mb-1">{office.address}</p>
               <h6 className="mb10">{office.phoneNumber}</h6>
-              <a className="text-decoration-underline" href="#">
+              <a className="text-decoration-underline" href="https://maps.app.goo.gl/APbEiJqWvmkXhiya8">
                 Open Google Map
               </a>
             </div>

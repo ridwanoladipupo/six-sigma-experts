@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 
 const Partner = () => {
-  const partnerImages = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"];
+  const partnerImages = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png"];
   const [showSlider, setShowSlider] = useState(false)
   useEffect(() => {
     setShowSlider(true)
@@ -15,8 +15,8 @@ const Partner = () => {
   return (
     <>
     {showSlider &&   <Swiper
-      spaceBetween={10} // Adjust the spacing between items as per your preference
-      slidesPerView={6} // Default number of slides per view
+      spaceBetween={22} // Adjust the spacing between items as per your preference
+      slidesPerView={7} // Default number of slides per view
       breakpoints={{
         0: {
           slidesPerView: 2,
@@ -43,8 +43,8 @@ const Partner = () => {
           <div className="item">
             <div className="partner_item">
               <Image
-                width={122}
-                height={24}
+                width={130}
+                height={42}
                 style={{ objectFit: "contain" }}
                 className="wa m-auto"
                 src={`/images/partners/${imageName}`}

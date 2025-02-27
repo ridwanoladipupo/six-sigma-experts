@@ -57,7 +57,7 @@ const Home_V6 = () => {
       {/*  <!-- End About Us --> */}
 
       {/* Explore Apartment Home */}
-      <section className="pb90 pb30-md">
+      <section className="pb60 pb30-md">
         <div className="container">
           <div className="row">
             <div className="col-xl-6" data-aos="fade-up" data-aos-delay="100">
@@ -108,9 +108,9 @@ const Home_V6 = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <h2 className="title">Discover Our Review</h2>
+                <h2 className="title">Our Review</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                Read our take on key insights, experiences, and expertise—straight from us.
                 </p>
               </div>
             </div>
@@ -159,9 +159,9 @@ const Home_V6 = () => {
           <div className="row">
             <div className="col-lg-6 mx-auto" data-aos-delay="300ms">
               <div className="main-title text-center">
-                <h2>Featured Books & Talks</h2>
+                <h2>Featured Books</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                Explore insightful books written by our founder, sharing expertise and experience.
                 </p>
               </div>
             </div>
@@ -200,7 +200,7 @@ const Home_V6 = () => {
           <div className="row">
             <div className="col-lg-12" data-aos="fade-up">
               <div className="main-title text-center">
-                <h6>Trusted by the world’s best</h6>
+                <h6>Current Clients</h6>
               </div>
             </div>
             <div className="col-lg-12 text-center">

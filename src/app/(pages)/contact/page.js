@@ -25,9 +25,9 @@ const Contact = () => {
         <iframe
           className="home8-map contact-page"
           loading="lazy"
-          src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&t=m&z=14&output=embed&iwloc=near"
-          title="London Eye, London, United Kingdom"
-          aria-label="London Eye, London, United Kingdom"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.389579325368!2d-111.96144122344359!3d33.621139373322364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b73f137eaa559%3A0x4548d3a27753328e!2s5640%20E%20Marilyn%20Rd%2C%20Scottsdale%2C%20AZ%2085254%2C%20USA!5e0!3m2!1sen!2sca!4v1740619103148!5m2!1sen!2sca"
+          title="Scottsdale, Arizona, USA"
+          aria-label="Scottsdale, Arizona, USA"
         />
       </section>
       {/* End Our Contact With Map */}
@@ -52,9 +52,7 @@ const Contact = () => {
                 from you.
               </h2>
               <p className="text">
-                We are here to answer any question you may have. As a partner of
-                corporates, realton has more than 9,000 offices of all sizes and
-                all potential of session.
+              Have questions or need assistance? Reach out to us—we’re here to help and would love to connect with you!
               </p>
             </div>
             {/* End .col */}
@@ -75,8 +73,7 @@ const Contact = () => {
               <div className="main-title text-center">
                 <h2 className="title">Visit Our Office</h2>
                 <p className="paragraph">
-                  Realton has more than 9,000 offices of all sizes and all
-                  potential of session.
+                Visit our office for personalized assistance and expert support. We’re always happy to help—stop by and say hello!
                 </p>
               </div>
             </div>
