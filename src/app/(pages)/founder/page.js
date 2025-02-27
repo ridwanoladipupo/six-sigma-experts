@@ -150,9 +150,9 @@ const AgentSingle = ({params}) => {
                 <h4 className="form-title mb25">Contact Form</h4>
                 <FormContact />
               </div>
-              <div className="agen-personal-info position-relative bgc-white default-box-shadow1 bdrs12 p30 mt30">
+              {/* <div className="agen-personal-info position-relative bgc-white default-box-shadow1 bdrs12 p30 mt30">
                 <ProfessionalInfo />
-              </div>
+              </div> */}
             </div>
             {/* End .col-lg-4 */}
           </div>
