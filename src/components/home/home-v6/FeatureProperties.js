@@ -11,13 +11,13 @@ const properties = [
     featured: true,
     status: "AMAZON",
     title: "Flawless Launch Profitable Products",
-    location: "California City, CA, USA",
-    bed: "3 bed",
+    location: "Arizona, USA",
+    bed: "$11.97",
     bath: "4 bath",
     sqft: "1200 sqft",
     price: "",
     year: "2024",
-    topic: "Amazon",
+    topic: "Eric C. Maass, Phd",
     imageSrc: "/images/listings/talk_1.jpg",
   },
   {
@@ -25,13 +25,13 @@ const properties = [
     featured: true,
     status: "AMAZON",
     title: "Apply Design for Six Sigma to Software and Hardware Systems",
-    location: "California City, CA, USA",
-    bed: "3 bed",
+    location: "Arizona, USA",
+    bed: "$11.97",
     bath: "4 bath",
     sqft: "1200 sqft",
     price: "$2,800 / mo",
     year: "2025",
-    topic: "Amazon",
+    topic: "Eric Maass, Patricia D. McNair",
     imageSrc: "/images/listings/talk_2.jpg",
   },
   {
@@ -39,13 +39,13 @@ const properties = [
     featured: true,
     status: "AMAZON",
     title: "Supply Chain Modelling",
-    location: "California City, CA, USA",
-    bed: "3 bed",
+    location: "Arizona, USA",
+    bed: "$11.97",
     bath: "4 bath",
     sqft: "1200 sqft",
     price: "$14,000 / mo",
     year: "2025",
-    topicfaq: "Amazon",
+    topic: "Eric Maass",
     imageSrc: "/images/listings/talk_3.jpg",
   },
 
@@ -88,14 +88,14 @@ const FeatureProperties = () => {
                       </h4>
                       <p className="list-text fz15">{property.location}</p>
                       <div className="list-meta d-block d-sm-flex align-items-center mt30 mb20">
-                        {/* <a
+                        <a
                           className="d-flex mb-2 mb-sm-0 align-items-center"
                           href="#"
                         >
-                          <span className="flaticon-bed" />
+                          <span className="flaticond" >Price</span>
                           {property.bed}
                         </a>
-                        <a
+                        {/* <a
                           className="d-flex mb-2 mb-sm-0 align-items-center"
                           href="#"
                         >
@@ -104,7 +104,7 @@ const FeatureProperties = () => {
                         </a>
                         <a className="d-flex align-items-center" href="#">
                           <span className="flaticon-expand" />
-                          {property.sqft}
+                            {property.sqft}
                         </a> */}
                       </div>
                       {/* End list-meta */}
@@ -113,7 +113,7 @@ const FeatureProperties = () => {
                         <div className="col-auto">
                           <div className="contact-info">
                             <p className="info-title ff-heading mb-2">
-                              Selling on:
+                              Authors:
                             </p>
                             <h6 className="info-phone">
                               <a href="tel:+012305094502">
@@ -150,12 +150,12 @@ const FeatureProperties = () => {
                         <div className="col-auto">
                           <div className="list-meta2">
                             <div className="icons d-flex align-items-center">
-                              <a href="#">
+                              {/* <a href="#">
                                 <span className="flaticon-fullscreen" />
                               </a>
                               <a href="#">
                                 <span className="flaticon-new-tab" />
-                              </a>
+                              </a> */}
                               <a href="#">
                                 <span className="flaticon-like" />
                               </a>
