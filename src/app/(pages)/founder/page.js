@@ -128,6 +128,8 @@ const AgentSingle = ({params}) => {
                   </div>
                 </div>
 
+                <h6 className="fz17 my30">Podcasts</h6>
+
                   <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 my30 ">
                     {/* <h4 className="title fz17 mb30">Flawlessly Launching Businesses featuring Eric Maass</h4> */}
                     <div className="row">

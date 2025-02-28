@@ -125,14 +125,14 @@ const AboutSixSigma = () => {
                 <div className="mb30">
                   <h2 className="title text-capitalize">
                     Let’s find the right <br className="d-none d-md-block" />{" "}
-                    selling option for you
+                    solution for you
                   </h2>
                 </div>
-                <div className="why-chose-list style2">
-                  {/* <Features /> */}
-                </div>
+                {/* <div className="why-chose-list style2">
+                  <Features />
+                </div> */}
                 <Link href="#" className="ud-btn btn-dark">
-                  Learn More
+                  Contact Us
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>
@@ -148,7 +148,7 @@ const AboutSixSigma = () => {
           <div className="row">
             <div className="col-lg-12" data-aos="fade-up">
               <div className="main-title text-center">
-                <h6>Trusted by the world’s best</h6>
+                <h6>Current Clients</h6>
               </div>
             </div>
             <div className="col-lg-12 text-center">

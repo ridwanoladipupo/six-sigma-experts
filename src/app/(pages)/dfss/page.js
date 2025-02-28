@@ -82,7 +82,7 @@ const AboutSixSigma = () => {
           <div className="row">
             <div className="col-lg-12" data-aos="fade-up">
               <div className="main-title text-center">
-                <h6>Trusted by the world’s best</h6>
+                <h6>Current Clients</h6>
               </div>
             </div>
             <div className="col-lg-12 text-center">

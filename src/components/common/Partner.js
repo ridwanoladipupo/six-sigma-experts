@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 
 const Partner = () => {
-  const partnerImages = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png"];
+  const partnerImages = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"];
   const [showSlider, setShowSlider] = useState(false)
   useEffect(() => {
     setShowSlider(true)
