@@ -2,7 +2,7 @@ import Home_V6 from "./(home)/home-v6/page";
 import Wrapper from "./layout-wrapper/wrapper";
 
 export const metadata = {
-  title: "Home v1 || Homez - Real Estate NextJS Template",
+  title: "Six Sigma Experts - Eric Maass",
 };
 
 export default function MainRoot() {
