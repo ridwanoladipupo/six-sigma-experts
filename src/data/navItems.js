@@ -20,6 +20,7 @@ export const propertyItems = [
 export const blogItems = [
   { href: "/six-sigma-experts", label: "Six Sigma Experts" },
   { href: "/dfss", label: "DFSS" },
+  { href: "/blss", label: "Beyond Lean Six Sigma" },
 ];
 
 export const pageItems = [

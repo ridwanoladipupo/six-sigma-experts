@@ -87,8 +87,6 @@ const AgentSingle = ({params}) => {
                       Eric was a co-founder of the Six Sigma methods at Motorola, and had been the Lead Master Black Belt for DFSS at Motorola. His book, Applying DFSS to Software and Hardware Systems, provides clear step-by-step guidance on applying DFSS for developing innovative and compelling new products and technologies, while managing the business, schedule and technical risks.
                     </p>
 
-                   
-                    
                     <div className="agent-single-accordion">
                       <div
                         className="accordion accordion-flush"
@@ -131,16 +129,44 @@ const AgentSingle = ({params}) => {
                 <h6 className="fz17 my30">Podcasts</h6>
 
                   <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 my30 ">
-                    {/* <h4 className="title fz17 mb30">Flawlessly Launching Businesses featuring Eric Maass</h4> */}
+                    <div className="mb30">
+                      <h4 className="title fz17 mb0">Flawlessly Launching Businesses featuring Eric Maass</h4>
+                      <a href="https://bestsellerpublishing.org/eric-maass/">Best Seller Publishing - EPISODE 0096</a>
+                    </div>
                     <div className="row">
                       <PropertyVideo videoId="WKOD764eebQ?si=XXz142_oG7uJrX92"/>
                     </div>
                   </div>
 
                   <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 ">
-                    {/* <h4 className="title fz17 mb30">Beyond the Hype: Understanding AI in Hiring to Gain an Edge with Eric Maass PhD</h4> */}
+                    <div className="mb30">
+                      <h4 className="title fz17 mb0">Getting Comfortable with a Probabilistic Way of Thinking about Risk</h4>
+                      <a href="https://naveenagarwalphd.substack.com/p/risk-management-needs-probabilistic-thinking">Let's Talk Risk! With Naveen Agarwal, Phd</a>
+                    </div>
+
                     <div className="row">
                       <PropertyVideo videoId="wNHYs_8ZdCs?si=cpTj0fC3NuU5OlfX"/>
+                    </div>
+                  </div>
+
+                  <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 ">
+                    <div className="mb30">
+                      <h4 className="title fz17 mb0">Getting Comfortable with a Probabilistic Way of Thinking about Risk</h4>
+                      <a href="https://are-you-happy.captivate.fm/episode/eric-maass">Are You Happy Business Podcast Featuring Eric Maass</a>
+                    </div>
+
+                    <div className="row">
+                      <div className=" rounded-lg overflow-hidden">
+                        <iframe
+                          className="w-full h-full"
+                          frameBorder="0"
+                          scrolling="no"
+                          allow="clipboard-write"
+                          seamless
+                          src="https://player.captivate.fm/episode/d3f181f4-4717-4e9d-a1cd-62b1ceed2c31"
+                        ></iframe>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
