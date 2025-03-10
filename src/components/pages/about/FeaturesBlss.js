@@ -36,7 +36,7 @@ const Features = () => {
       {features.map((feature, index) => (
         <div className="list-one d-flex align-items-center justify-content-center mb30" key={index}>
           <span className={`list-icon flex-shrink-0 ${feature.icon}`} />
-          <div className="list-content flex-grow-1 ml20">
+          <div className="list-content flex-grow-1 ml20 ">
             <h6 className="my-4">{feature.title}</h6>
           </div>
         </div>
