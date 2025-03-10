@@ -169,6 +169,13 @@ const AgentSingle = ({params}) => {
                       
                     </div>
                   </div>
+
+                  <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 ">
+                    <div className="mb30">
+                      <h4 className="title fz17 mb0">Predictive Engineering: From DETERMINISTIC to Statistical Modelling to Develop Compelling New Products</h4>
+                      <a href="https://vimeo.com/813267658/9091411796">Minitab talk May 2023</a>
+                    </div>
+                  </div>
                 </div>
 
                  
@@ -176,7 +183,7 @@ const AgentSingle = ({params}) => {
               </div>
               {/* End .row */}
 
-              {/* <ListingItemsContainer/> */}
+              {/* <ListingItemsContainer/> */ }
               {/* <div className="row">
                 <div className="col-lg-12">
                   <AllReviews />
