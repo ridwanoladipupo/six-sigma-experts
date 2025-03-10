@@ -141,7 +141,7 @@ const AgentSingle = ({params}) => {
                   <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 ">
                     <div className="mb30">
                       <h4 className="title fz17 mb0">Getting Comfortable with a Probabilistic Way of Thinking about Risk</h4>
-                      <a href="https://naveenagarwalphd.substack.com/p/risk-management-needs-probabilistic-thinking">Let's Talk Risk! With Naveen Agarwal, Phd</a>
+                      <a href="https://naveenagarwalphd.substack.com/p/risk-management-needs-probabilistic-thinking">Lets Talk Risk! With Naveen Agarwal, Phd</a>
                     </div>
 
                     <div className="row">
