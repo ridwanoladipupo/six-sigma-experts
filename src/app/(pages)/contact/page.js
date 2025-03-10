@@ -33,10 +33,10 @@ const Contact = () => {
       {/* End Our Contact With Map */}
 
       {/* Start Our Contact Form */}
-      <section>
+      {/* <section>
         <div className="container">
           <div className="row d-flex align-items-end">
-            <div className="col-lg-5 position-relative">
+            <div className="col-lg-5">
               <div className="home8-contact-form default-box-shadow1 bdrs12 bdr1 p30 mb30-md bgc-white">
                 <h4 className="form-title mb25">
                   Have questions? Get in touch!
@@ -44,7 +44,6 @@ const Contact = () => {
                 <Form />
               </div>
             </div>
-            {/* End .col */}
 
             <div className="col-lg-5 offset-lg-2">
               <h2 className="mb30 text-capitalize">
@@ -55,14 +54,13 @@ const Contact = () => {
               Have questions or need assistance? Reach out to us—we’re here to help and would love to connect with you!
               </p>
             </div>
-            {/* End .col */}
           </div>
         </div>
-      </section>
+      </section> */}
       {/* End Our Contact Form */}
 
       {/* Visit our Office */}
-      <section className="pt0 pb90 pb10-md">
+      <section className="py90 pb10-md">
         <div className="container">
           <div className="row">
             <div

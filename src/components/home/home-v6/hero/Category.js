@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const Category = () => {
   const categories = [
-    { icon: "flaticon-home-1", text: "Displays" },
-    { icon: "flaticon-corporation", text: "Automotive" },
-    { icon: "flaticon-network", text: "Medical" },
-    { icon: "flaticon-garden", text: "Communications" },
+    // { icon: "flaticon-home-1", text: "Displays" },
+    // { icon: "flaticon-corporation", text: "Automotive" },
+    { icon: "flaticon-network", text: "Predictive Engineering" },
+    { icon: "flaticon-garden", text: "Flawless Launches" },
   ];
 
   return (

@@ -70,10 +70,37 @@ const AboutSixSigma = () => {
               <div className="row">
                 {/* <Mission /> */}
               </div>
+
             </div>
           </div>
         </div>
       </section>
+
+       {/* Abut intro */}
+       <section className="pt90 pb-0">
+        <div className=" mx-auto maxw1600 pt100 pt60-lg pb90 pb60-lg bdrs24 position-relative overflow-hidden mx20-lg">
+          <div className="container">
+            <div className="row">
+              <div
+                className="col-md-6 col-lg-5 pl30-md pl15-xs"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <div className="mb30">
+                  <h2 className="title text-capitalize">
+                    DFSS Topic 
+                    Categories
+                  </h2>
+                </div>
+                <div className="why-chose-list style2">
+                  <Features />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Abut intro */}
     
 
       {/* Our Partners */}

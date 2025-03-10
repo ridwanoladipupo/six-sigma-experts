@@ -7,8 +7,6 @@ const Office = () => {
       id: 1,
       city: "United States",
       icon: "/images/icon/us.svg",
-      address: "5640 East Marilyn Road, Scottsdale, Arizona 85254",
-      phoneNumber: "(602) 615-2642",
     },
     // {
     //   id: 2,
@@ -39,9 +37,9 @@ const Office = () => {
               <h4 className="title">{office.city}</h4>
               <p className="text mb-1">{office.address}</p>
               <h6 className="mb10">{office.phoneNumber}</h6>
-              <a className="text-decoration-underline" href="https://maps.app.goo.gl/APbEiJqWvmkXhiya8">
+              {/* <a className="text-decoration-underline" href="https://maps.app.goo.gl/APbEiJqWvmkXhiya8">
                 Open Google Map
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
