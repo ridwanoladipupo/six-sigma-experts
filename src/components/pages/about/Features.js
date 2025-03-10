@@ -2,23 +2,23 @@ const Features = () => {
   // Define an array of feature objects
   const features = [
     {
-      icon: "flaticon-security",
+      icon: "flaticon-user",
       title: "Voices of Customers and Stakeholders",
     },
     {
-      icon: "flaticon-keywording",
+      icon: "flaticon-new-tab",
       title: "Expectations -> Measurable Requirements",
     },
     {
-      icon: "flaticon-investment",
+      icon: "flaticon-security",
       title: "Identify Control and Noise Factors",
     },
     {
-      icon: "flaticon-keywording",
+      icon: "flaticon-discovery",
       title: "Predictive Engineering",
     },
     {
-      icon: "flaticon-investment",
+      icon: "flaticon-review",
       title: "Flawless Launches",
     },
   ];
