@@ -3806,6 +3806,13 @@ li {
     }
 }
 
+@media (max-width: 1399.98px) {
+    .home-banner-style6 .home-style1 {
+        // font-size: 30px;
+        height: 600px;
+    }
+}
+
 .inner-banner-style6 .hero-sub-title {
     font-family: var(--title-font-family);
     font-weight: 400;
@@ -3820,6 +3827,9 @@ li {
         font-size: 30px;
     }
 }
+
+
+
 .inner-banner-style6 .hero-text {
     font-family: var(--title-font-family);
     font-weight: 400;

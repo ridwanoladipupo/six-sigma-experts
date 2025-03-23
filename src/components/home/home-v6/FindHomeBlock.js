@@ -28,7 +28,7 @@ const FindHomeBlock = () => {
     },
     {
       icon: "flaticon-house-1",
-      number: "04",
+      number: "05",
       subtitle: "Processes",
       text: "Get ready to stay connected with seamless comm. solutions.",
     },

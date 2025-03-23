@@ -3,16 +3,10 @@ import React from "react";
 const ContactInfo = () => {
   const contactInfo = [
     {
-      id: 1,
-      title: "Total Free Customer Care",
-      phone: "+(0) 123 050 945 02",
-      phoneHref: "tel:+012305094502", // Updated phoneHref to use "tel" URI
-    },
-    {
       id: 2,
-      title: "Need Live Support?",
-      email: "hi@homez.com",
-      emailHref: "mailto:hi@homez.com", // Updated emailHref to use "mailto" URI
+      title: "Need Support?",
+      email: "LinkedIn",
+      emailHref: "https://www.linkedin.com/in/eric-maass-9304a3/", // Updated emailHref to use "mailto" URI
     },
   ];
 

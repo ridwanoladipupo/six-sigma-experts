@@ -63,10 +63,10 @@ const Home_V6 = () => {
             <div className="col-xl-6" data-aos="fade-up" data-aos-delay="100">
               <div className="about-box2">
                 <h4 className="title">
-                Design for Six Sigma  <br className="d-none d-xl-block" /> (DFSS)
+                  Design for Six Sigma  <br className="d-none d-xl-block" /> (DFSS)
                 </h4>
                 <p className="text fz15">
-                  Design for Six Sigma (DFSS) is a proactive and preventative process for developing robust products aligned with requirements traceable to the Voice of the Customer, using predictive engineering and anticipating and managing potential issues.{" "}
+                    Design for Six Sigma (DFSS) is a proactive and preventative process for developing robust products aligned with requirements traceable to the Voice of the Customer, using predictive engineering and anticipating and managing potential issues.{" "}
                   {/* <br className="d-none d-xl-block" /> limited time offer discounts. */}
                 </p>
                 <Link href="/dfss" className="ud-btn btn-thm">

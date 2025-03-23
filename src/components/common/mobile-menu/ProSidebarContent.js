@@ -14,7 +14,10 @@ const ProSidebarContent = () => {
   return (
     <Sidebar width="100%" backgroundColor="#fff" className="my-custom-class">
       <Menu>
-        {mobileMenuItems.map((item, index) => (
+
+         
+
+          {mobileMenuItems.map((item, index) => (
           <SubMenu
             key={index}
             className={isParentActive(item.subMenu, path) ? "active" : ""}
@@ -59,6 +62,8 @@ const ProSidebarContent = () => {
             )}
           </SubMenu>
         ))}
+     
+        
       </Menu>
     </Sidebar>
   );
