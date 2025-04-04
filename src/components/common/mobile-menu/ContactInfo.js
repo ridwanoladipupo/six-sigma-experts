@@ -5,8 +5,8 @@ const ContactInfo = () => {
     {
       id: 2,
       title: "Need Support?",
-      email: "LinkedIn",
-      emailHref: "https://www.linkedin.com/in/eric-maass-9304a3/", // Updated emailHref to use "mailto" URI
+      email: "Contact Us",
+      emailHref: "/contact", // Updated emailHref to use "mailto" URI
     },
   ];
 
