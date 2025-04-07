@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="inner-banner-style6">
         <h2 className="hero-title text-white animate-up-1">
         Develop Robust Products
-         <br className="d-none d-xl-block" />
-         Using Design for Six Sigma
+         <br className="d-none d-xl-block" /> {""}
+          Using Design for Six Sigma
         </h2>
         <p className="hero-text text-white fz15 animate-up-2">
         Customized Consulting, Training and Coaching for Technology Companies
